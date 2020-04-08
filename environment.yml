@@ -1,0 +1,11 @@
+name: testing
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  # use this -pip syntax to add non conda packages https://github.com/binder-examples/python-conda_pip
+  # - pip:
